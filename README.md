@@ -9,8 +9,8 @@ This application generates a professionally formatted README file based on user 
 - [Usage](#usage)
 - [Credits](#credits)
 ## License
-This project is licensed with MIT
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed with MIT /n
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) /n
 https://choosealicense.com/licenses/mit/
 ## Installation
 Create a folder with the index and generateLicense js files. Include the package.json file by running npm install <package> --save for both the inquirer package and the fs package.
