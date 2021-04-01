@@ -58,31 +58,31 @@ const questions = [
 
 const generateREADME = (response) => {
     let READMEtext = `
-    # ${response.title}
+# ${response.title}
 
-    ## Description
-    ${response.description}
+## Description    
+${response.description}
 
-    ## Table of Contents
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
-    ## Installation
-    ${response.installation}
-    ## Usage
-    ${response.usage}
-    ## Credits
-    ${response.credits}
-    ## License
-    ${license.renderLicenseLink(response.license)}
-    ## Badges
-    ${license.renderLicenseBadge(response.license)}
-    ## How to Contribute
-    ${response.contribution}
-    ## Tests
-    ${response.tests}
-    `
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+## Installation
+${response.installation}
+## Usage
+${response.usage}
+## Credits
+${response.credits}
+## License
+${license.renderLicenseLink(response.license)}
+## Badges
+${license.renderLicenseBadge(response.license)}
+## How to Contribute
+${response.contribution}
+## Tests
+${response.tests}
+`
     return READMEtext
 }
 
