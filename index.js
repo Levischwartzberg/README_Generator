@@ -69,8 +69,8 @@ ${response.description}
 - [Usage](#usage)
 - [Credits](#credits)
 ## License
-This project is licensed with ${license.renderLicenseText(response.license)} /n
-${license.renderLicenseBadge(response.license)} /n
+This project is licensed with ${license.renderLicenseText(response.license)} <br>
+${license.renderLicenseBadge(response.license)} <br>
 ${license.renderLicenseLink(response.license)}
 ## Installation
 ${response.installation}
