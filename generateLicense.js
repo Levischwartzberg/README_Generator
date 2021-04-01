@@ -43,7 +43,29 @@ function renderLicenseLink(license) {
     }
 }
 
+function renderLicenseText(license) {
+    if (license == "None") {
+        return "";
+    } 
+    else if (license == "Gnu") {
+        return "Gnu GPL v3";
+    }
+    else if (license == "MIT") {
+        return "MIT";
+    }
+    else if (license == "Mozilla") {
+        return "Mozilla Public License 2.0";
+    }
+    else if (license == "Apache") {
+        return "Apache 2.0";
+    }
+    else if (license == "Boost") {
+        return "Boost Software License 1.0";
+    }
+}
+
 module.exports = {
     renderLicenseBadge,
     renderLicenseLink,
+    renderLicenseText
   };

@@ -57,27 +57,29 @@ const questions = [
 ]
 
 const generateREADME = (response) => {
-    let READMEtext = `
-# ${response.title}
+    let READMEtext = 
+`# ${response.title}
 
-## Description    
+## Description
 ${response.description}
 
 ## Table of Contents
+- [License](#license)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#license)
+## License
+This project is licensed with ${license.renderLicenseText(response.license)}
+${license.renderLicenseBadge(response.license)}
+${license.renderLicenseLink(response.license)}
 ## Installation
 ${response.installation}
 ## Usage
 ${response.usage}
 ## Credits
 ${response.credits}
-## License
-${license.renderLicenseLink(response.license)}
 ## Badges
-${license.renderLicenseBadge(response.license)}
+[<img src="https://img.shields.io/badge/LeviSchwartzberg-Developer-green">](https://shields.io/)
 ## How to Contribute
 ${response.contribution}
 ## Tests
