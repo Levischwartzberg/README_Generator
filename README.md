@@ -19,6 +19,7 @@ https://choosealicense.com/licenses/mit/
 Create a folder with the index and generateLicense js files. Include the package.json file by running npm install <package> --save for both the inquirer package and the fs package.
 ## Usage
 This application allows the user to enter in the desired README content without having to do the basic formatting. It generates a file which provides a finished README, or at the very least, a solid template that can be further edited.
+  https://www.youtube.com/watch?v=_gMV6M5eOJ8
 ## Credits
 This was an individual effort.
 ## Questions
