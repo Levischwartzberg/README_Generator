@@ -68,8 +68,8 @@ ${response.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [Contribute] (#how-to-contribute)
-- [Tests] (#tests)
+- [Contribute](#how-to-contribute)
+- [Tests](#tests)
 ## License
 This project is licensed with ${license.renderLicenseText(response.license)} <br>
 ${license.renderLicenseBadge(response.license)} <br>

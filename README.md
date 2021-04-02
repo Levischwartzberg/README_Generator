@@ -8,8 +8,8 @@ This application uses the node inquirer package to obtain user information about
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [Contribute] (#how-to-contribute)
-- [Tests] (#tests)
+- [Contribute](#how-to-contribute)
+- [Tests](#tests)
 ## License
 This project is licensed with MIT <br>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br>
