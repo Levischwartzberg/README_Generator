@@ -8,6 +8,7 @@ This application uses the node inquirer package to obtain user information about
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Questions](#questions)
 - [Contribute](#how-to-contribute)
 - [Tests](#tests)
 ## License
@@ -20,8 +21,11 @@ Create a folder with the index and generateLicense js files. Include the package
 This application allows the user to enter in the desired README content without having to do the basic formatting. It generates a file which provides a finished README, or at the very least, a solid template that can be further edited.
 ## Credits
 This was an individual effort.
-## Badges
-[<img src="https://img.shields.io/badge/LeviSchwartzberg-Developer-green">](https://shields.io/)
+## Questions
+[<img src="https://img.shields.io/badge/LeviSchwartzberg-Developer-green">](https://shields.io/) <br>
+Feel free to reach out via email with any questions. <br>
+Find me on Github: Levischwartzberg <br>
+Email: Levischwartzberg@gmail.com
 ## How to Contribute
 Contribution is not particularly necessary but it isn't discouraged.
 ## Tests

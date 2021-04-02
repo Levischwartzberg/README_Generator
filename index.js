@@ -68,6 +68,7 @@ ${response.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Questions](#questions)
 - [Contribute](#how-to-contribute)
 - [Tests](#tests)
 ## License
@@ -80,8 +81,11 @@ ${response.installation}
 ${response.usage}
 ## Credits
 ${response.credits}
-## Badges
-[<img src="https://img.shields.io/badge/LeviSchwartzberg-Developer-green">](https://shields.io/)
+## Questions
+[<img src="https://img.shields.io/badge/LeviSchwartzberg-Developer-green">](https://shields.io/) <br>
+Feel free to reach out via email with any questions. <br>
+Find me on Github: ${response.github} <br>
+Email: ${response.email}
 ## How to Contribute
 ${response.contribution}
 ## Tests
