@@ -54,6 +54,11 @@ const questions = [
         message: 'Enter in your email address',
         name: 'email',
     },
+    {
+        type: 'input',
+        message: 'Enter in your desired name for a badge (e.g. LeviSchwartzberg)',
+        name: 'name',
+    },
 ]
 
 const generateREADME = (response) => {
@@ -82,7 +87,7 @@ ${response.usage}
 ## Credits
 ${response.credits}
 ## Questions
-[<img src="https://img.shields.io/badge/LeviSchwartzberg-Developer-green">](https://shields.io/) <br>
+[<img src="https://img.shields.io/badge/${response.name}-Developer-green">](https://shields.io/) <br>
 Feel free to reach out via email with any questions. <br>
 Find me on Github: ${response.github} <br>
 Email: ${response.email}
