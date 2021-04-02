@@ -1,13 +1,15 @@
 # README Generator
 
 ## Description
-This application generates a professionally formatted README file based on user input.
+This application uses the node inquirer package to obtain user information about project details, which are taken and inserted into a template for a README. The application generates a professionally formatted README file which can be used and adjusted for any project.
 
 ## Table of Contents
 - [License](#license)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Contribute] (#how-to-contribute)
+- [Tests] (#tests)
 ## License
 This project is licensed with MIT <br>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br>
